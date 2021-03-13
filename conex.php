@@ -4,7 +4,7 @@ error_reporting(1);
 $host     = "localhost";
 $database = "imprimir";
 $user     = "root";
-$password = "root";
+$password = "";
 
 
 $mysqli = new mysqli($host , $user, $password, $database);
